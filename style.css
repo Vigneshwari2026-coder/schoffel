@@ -19,7 +19,7 @@
 
                 }
                .activeHikingSwiper{
-  padding-bottom: 70px !important; 
+               padding-bottom: 70px !important; 
 }
 
                 .activeHikingSwiper .swiper-button-prev,
@@ -52,7 +52,7 @@
                     display: block;
                 }
 
-                /* SMALL 320,375,425,576 = 1 COLUMN */
+               
                 @media (max-width:767px) {
                     #ichbinraus {
                         grid-template-columns: 1fr;
@@ -81,7 +81,7 @@
                     }
                 }
 
-                /* MD 768 = 2 COLUMN */
+            
                 @media (min-width:768px) and (max-width:991px) {
                     #ichbinraus {
                         grid-template-columns: 1fr 1fr;
@@ -116,7 +116,7 @@
                     }
                 }
 
-                /* LG 992+ = VIDEO MAARI 3 COLUMN */
+                
                 @media (min-width:992px) {
                     #ichbinraus {
                         grid-template-columns: 1.6fr 0.7fr 0.7fr;
